@@ -2,7 +2,7 @@
 Simulation environment for ur5
 
 # Description
-This repository intends to provide a simulation environment (Gazebo+ROS+Rviz) for the development of pick and place functions with th UR5.
+This repository intends to provide a simulation environment (Gazebo+ROS+Rviz) for the development of pick and place functions with the UR5.
 
 # Installation
 Create a catkin workspace:
@@ -32,3 +32,10 @@ The following world should appear in your Gazebo's GUI (make sure to start the s
 
 ![alt text](https://github.com/Ubira/fasten-ur5/blob/master/images/Image1.png)
   
+It's possible to run python scripts like "testmotion.py" with the command:
+
+	$ rosrun ur5_gazebo testmotion.py
+
+In case of writing a new script make sure to make it executable with (in the file folder):
+
+	$ chmod +x YOUR_PYTHON_SCRIPT.py
