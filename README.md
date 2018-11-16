@@ -28,7 +28,7 @@ For simulation with Gazebo run the command:
 
 	$ roslaunch ur5_gazebo ur5_setup.launch
 		
-The following world should appear in your Gazebo GUI:
+The following world should appear in your Gazebo's GUI (make sure to start the simulation):
 
 ![alt text](https://github.com/Ubira/fasten-ur5/blob/master/images/Image1.png)
   
