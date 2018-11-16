@@ -4,6 +4,18 @@ Simulation environment for ur5
 # Description
 This repository intends to provide a simulation environment (Gazebo+ROS+Rviz) for the development of pick and place functions with the UR5.
 
+It is based in the following packages:
+
+https://github.com/utecrobotics/ur5
+
+https://github.com/Ubira/common-sensors
+
+https://github.com/utecrobotics/robotiq
+
+https://github.com/Ubira/UR5-with-Robotiq-Gripper-and-Kinect
+
+https://github.com/Ubira/ur5_ROS-Gazebo
+
 # Installation
 Create a catkin workspace:
 
