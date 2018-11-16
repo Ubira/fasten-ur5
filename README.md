@@ -8,13 +8,13 @@ It is based in the following packages:
 
 https://github.com/utecrobotics/ur5
 
-https://github.com/Ubira/common-sensors
+https://github.com/JenniferBuehler/common-sensors
 
 https://github.com/utecrobotics/robotiq
 
-https://github.com/Ubira/UR5-with-Robotiq-Gripper-and-Kinect
+https://github.com/philwall3/UR5-with-Robotiq-Gripper-and-Kinect
 
-https://github.com/Ubira/ur5_ROS-Gazebo
+https://github.com/lihuang3/ur5_ROS-Gazebo
 
 # Installation
 Create a catkin workspace:
@@ -27,6 +27,7 @@ Create a catkin workspace:
    
 Clone the git repository:
 
+	$ cd ~/catkin_ws/src/
 	$ git clone https://github.com/Ubira/fasten-ur5.git
 		
 Build the catkin workspace:
